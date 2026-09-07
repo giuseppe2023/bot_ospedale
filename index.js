@@ -8,15 +8,8 @@ require('./database/connections');
 const RichiestaInattivita = require('./database/models/RichiestaInattivita');
 const RichiestaRuolo = require('./database/models/RichiestaRuolo');
 
-const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send('Bot online');
-});
 
-app.listen(PORT, () => {
-    console.log(`🌐 Server attivo sulla porta ${PORT}`);
-});
 
 // ---------------- CLIENT ----------------
 const client = new Client({
