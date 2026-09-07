@@ -1,0 +1,259 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.7.0
+2 info using node@v24.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2026-01-17T21_21_25_685Z-
+9 verbose logfile /home/container/.npm/_logs/2026-01-17T21_21_25_685Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify mark retired [ '/home/container/node_modules/discord-api-types' ]
+15 silly reify mark retired [ '/home/container/node_modules/discord.js' ]
+16 silly reify mark retired [ '/home/container/node_modules/gaxios' ]
+17 silly reify mark retired [ '/home/container/node_modules/glob' ]
+18 silly reify mark retired [ '/home/container/node_modules/google-auth-library' ]
+19 silly reify mark retired [ '/home/container/node_modules/googleapis' ]
+20 silly reify mark retired [ '/home/container/node_modules/googleapis-common' ]
+21 silly reify mark retired [ '/home/container/node_modules/lodash' ]
+22 silly reify mark retired [ '/home/container/node_modules/minimatch' ]
+23 silly reify mark retired [ '/home/container/node_modules/node-domexception' ]
+24 silly reify mark retired [ '/home/container/node_modules/node-fetch' ]
+25 silly reify mark retired [ '/home/container/node_modules/object-inspect' ]
+26 silly reify mark retired [ '/home/container/node_modules/rimraf' ]
+27 silly reify mark retired [ '/home/container/node_modules/undici' ]
+28 silly reify mark retired [ '/home/container/node_modules/web-streams-polyfill' ]
+29 silly reify mark retired [ '/home/container/node_modules/@sapphire/shapeshift' ]
+30 silly reify mark retired [ '/home/container/node_modules/@types/node' ]
+31 silly reify mark retired [ '/home/container/node_modules/@vladfrangu/async_event_emitter' ]
+32 silly reify mark retired [
+32 silly reify   '/home/container/node_modules/is-docker',
+32 silly reify   '/home/container/node_modules/.bin/is-docker'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/home/container/node_modules/is-inside-container',
+33 silly reify   '/home/container/node_modules/.bin/is-inside-container'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/home/container/node_modules/which',
+34 silly reify   '/home/container/node_modules/.bin/node-which'
+34 silly reify ]
+35 silly reify moves {
+35 silly reify   '/home/container/node_modules/discord-api-types': '/home/container/node_modules/.discord-api-types-mSRmK4Q8',
+35 silly reify   '/home/container/node_modules/discord.js': '/home/container/node_modules/.discord.js-PAVAWahc',
+35 silly reify   '/home/container/node_modules/gaxios': '/home/container/node_modules/.gaxios-8L75FMrf',
+35 silly reify   '/home/container/node_modules/glob': '/home/container/node_modules/.glob-3L2uyhTt',
+35 silly reify   '/home/container/node_modules/google-auth-library': '/home/container/node_modules/.google-auth-library-ZrbG3Ivm',
+35 silly reify   '/home/container/node_modules/googleapis': '/home/container/node_modules/.googleapis-Drfa1edQ',
+35 silly reify   '/home/container/node_modules/googleapis-common': '/home/container/node_modules/.googleapis-common-aX0HZ501',
+35 silly reify   '/home/container/node_modules/lodash': '/home/container/node_modules/.lodash-w7SdlPoO',
+35 silly reify   '/home/container/node_modules/minimatch': '/home/container/node_modules/.minimatch-rElEqhmg',
+35 silly reify   '/home/container/node_modules/node-domexception': '/home/container/node_modules/.node-domexception-PgIQTk6J',
+35 silly reify   '/home/container/node_modules/node-fetch': '/home/container/node_modules/.node-fetch-nDQ9entZ',
+35 silly reify   '/home/container/node_modules/object-inspect': '/home/container/node_modules/.object-inspect-cHlkwiiP',
+35 silly reify   '/home/container/node_modules/rimraf': '/home/container/node_modules/.rimraf-1HSCxFRz',
+35 silly reify   '/home/container/node_modules/undici': '/home/container/node_modules/.undici-QozVw7D5',
+35 silly reify   '/home/container/node_modules/web-streams-polyfill': '/home/container/node_modules/.web-streams-polyfill-8DD26O7S',
+35 silly reify   '/home/container/node_modules/@sapphire/shapeshift': '/home/container/node_modules/@sapphire/.shapeshift-9lv2fZid',
+35 silly reify   '/home/container/node_modules/@types/node': '/home/container/node_modules/@types/.node-UlGklLSK',
+35 silly reify   '/home/container/node_modules/@vladfrangu/async_event_emitter': '/home/container/node_modules/@vladfrangu/.async_event_emitter-SqUuAIBh',
+35 silly reify   '/home/container/node_modules/is-docker': '/home/container/node_modules/.is-docker-DDMYtdlP',
+35 silly reify   '/home/container/node_modules/.bin/is-docker': '/home/container/node_modules/.bin/.is-docker-LoJh80Ok',
+35 silly reify   '/home/container/node_modules/is-inside-container': '/home/container/node_modules/.is-inside-container-y8xawau8',
+35 silly reify   '/home/container/node_modules/.bin/is-inside-container': '/home/container/node_modules/.bin/.is-inside-container-Wsicv2D3',
+35 silly reify   '/home/container/node_modules/which': '/home/container/node_modules/.which-a0RAFcK4',
+35 silly reify   '/home/container/node_modules/.bin/node-which': '/home/container/node_modules/.bin/.node-which-YffGGleL'
+35 silly reify }
+36 silly audit bulk request {
+36 silly audit   '@discordjs/builders': [ '1.13.1' ],
+36 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+36 silly audit   '@discordjs/formatters': [ '0.6.2' ],
+36 silly audit   '@discordjs/rest': [ '2.6.0' ],
+36 silly audit   '@discordjs/util': [ '1.2.0' ],
+36 silly audit   '@discordjs/ws': [ '1.2.3' ],
+36 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+36 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+36 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+36 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+36 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+36 silly audit   '@types/node': [ '25.0.3' ],
+36 silly audit   '@types/ws': [ '8.18.1' ],
+36 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.7' ],
+36 silly audit   'agent-base': [ '7.1.4' ],
+36 silly audit   'ansi-regex': [ '6.2.2', '5.0.1' ],
+36 silly audit   'ansi-styles': [ '6.2.3', '4.3.0' ],
+36 silly audit   'balanced-match': [ '1.0.2' ],
+36 silly audit   'base64-js': [ '1.5.1' ],
+36 silly audit   'bignumber.js': [ '9.3.1' ],
+36 silly audit   'brace-expansion': [ '2.0.2' ],
+36 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+36 silly audit   'bundle-name': [ '4.1.0' ],
+36 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+36 silly audit   'call-bound': [ '1.0.4' ],
+36 silly audit   'color-convert': [ '2.0.1' ],
+36 silly audit   'color-name': [ '1.1.4' ],
+36 silly audit   'cross-spawn': [ '7.0.6' ],
+36 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+36 silly audit   debug: [ '4.4.3' ],
+36 silly audit   'default-browser': [ '5.4.0' ],
+36 silly audit   'default-browser-id': [ '5.0.1' ],
+36 silly audit   'define-lazy-prop': [ '3.0.0' ],
+36 silly audit   'discord-api-types': [ '0.38.37' ],
+36 silly audit   'discord.js': [ '14.25.1' ],
+36 silly audit   dotenv: [ '17.2.3' ],
+36 silly audit   'dunder-proto': [ '1.0.1' ],
+36 silly audit   eastasianwidth: [ '0.2.0' ],
+36 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+36 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+36 silly audit   'es-define-property': [ '1.0.1' ],
+36 silly audit   'es-errors': [ '1.3.0' ],
+36 silly audit   'es-object-atoms': [ '1.1.1' ],
+36 silly audit   extend: [ '3.0.2' ],
+36 silly audit   'fast-deep-equal': [ '3.1.3' ],
+36 silly audit   'fetch-blob': [ '3.2.0' ],
+36 silly audit   'foreground-child': [ '3.3.1' ],
+36 silly audit   'formdata-polyfill': [ '4.0.10' ],
+36 silly audit   'function-bind': [ '1.1.2' ],
+36 silly audit   gaxios: [ '7.1.3' ],
+36 silly audit   'gcp-metadata': [ '8.1.2' ],
+36 silly audit   'get-intrinsic': [ '1.3.0' ],
+36 silly audit   'get-proto': [ '1.0.1' ],
+36 silly audit   glob: [ '10.5.0' ],
+36 silly audit   'google-auth-library': [ '10.5.0' ],
+36 silly audit   'google-logging-utils': [ '1.1.3' ],
+36 silly audit   googleapis: [ '169.0.0' ],
+36 silly audit   'googleapis-common': [ '8.0.1' ],
+36 silly audit   gopd: [ '1.2.0' ],
+36 silly audit   gtoken: [ '8.0.0' ],
+36 silly audit   'has-symbols': [ '1.1.0' ],
+36 silly audit   hasown: [ '2.0.2' ],
+36 silly audit   'https-proxy-agent': [ '7.0.6' ],
+36 silly audit   'is-docker': [ '3.0.0' ],
+36 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+36 silly audit   'is-in-ssh': [ '1.0.0' ],
+36 silly audit   'is-inside-container': [ '1.0.0' ],
+36 silly audit   'is-wsl': [ '3.1.0' ],
+36 silly audit   isexe: [ '2.0.0' ],
+36 silly audit   jackspeak: [ '3.4.3' ],
+36 silly audit   'json-bigint': [ '1.0.0' ],
+36 silly audit   jwa: [ '2.0.1' ],
+36 silly audit   jws: [ '4.0.1' ],
+36 silly audit   lodash: [ '4.17.21' ],
+36 silly audit   'lodash.snakecase': [ '4.1.1' ],
+36 silly audit   'lru-cache': [ '10.4.3' ],
+36 silly audit   'magic-bytes.js': [ '1.12.1' ],
+36 silly audit   'math-intrinsics': [ '1.1.0' ],
+36 silly audit   minimatch: [ '9.0.5' ],
+36 silly audit   minipass: [ '7.1.2' ],
+36 silly audit   ms: [ '2.1.3' ],
+36 silly audit   'node-domexception': [ '1.0.0' ],
+36 silly audit   'node-fetch': [ '3.3.2' ],
+36 silly audit   'object-inspect': [ '1.13.4' ],
+36 silly audit   open: [ '11.0.0' ],
+36 silly audit   'package-json-from-dist': [ '1.0.1' ],
+36 silly audit   'path-key': [ '3.1.1' ],
+36 silly audit   'path-scurry': [ '1.11.1' ],
+36 silly audit   'powershell-utils': [ '0.1.0' ],
+36 silly audit   qs: [ '6.14.1' ],
+36 silly audit   rimraf: [ '5.0.10' ],
+36 silly audit   'run-applescript': [ '7.1.0' ],
+36 silly audit   'safe-buffer': [ '5.2.1' ],
+36 silly audit   'shebang-command': [ '2.0.0' ],
+36 silly audit   'shebang-regex': [ '3.0.0' ],
+36 silly audit   'side-channel': [ '1.1.0' ],
+36 silly audit   'side-channel-list': [ '1.0.0' ],
+36 silly audit   'side-channel-map': [ '1.0.1' ],
+36 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+36 silly audit   'signal-exit': [ '4.1.0' ],
+36 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+36 silly audit   'strip-ansi': [ '6.0.1', '7.1.2' ],
+36 silly audit   'ts-mixer': [ '6.0.4' ],
+36 silly audit   tslib: [ '2.8.1' ],
+36 silly audit   undici: [ '6.21.3' ],
+36 silly audit   'undici-types': [ '7.16.0' ],
+36 silly audit   'url-template': [ '2.0.8' ],
+36 silly audit   'web-streams-polyfill': [ '3.3.3' ],
+36 silly audit   which: [ '2.0.2' ],
+36 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+36 silly audit   ws: [ '8.18.3' ],
+36 silly audit   'wsl-utils': [ '0.3.1' ]
+36 silly audit }
+37 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 1ms (cache hit)
+38 http cache is-inside-container@https://registry.npmjs.org/is-inside-container/-/is-inside-container-1.0.0.tgz 0ms (cache hit)
+39 http cache is-docker@https://registry.npmjs.org/is-docker/-/is-docker-3.0.0.tgz 0ms (cache hit)
+40 http cache @vladfrangu/async_event_emitter@https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.4.7.tgz 0ms (cache hit)
+41 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-25.0.3.tgz 0ms (cache hit)
+42 http cache @sapphire/shapeshift@https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-4.0.0.tgz 0ms (cache hit)
+43 http cache web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 0ms (cache hit)
+44 http cache undici@https://registry.npmjs.org/undici/-/undici-6.21.3.tgz 0ms (cache hit)
+45 http cache rimraf@https://registry.npmjs.org/rimraf/-/rimraf-5.0.10.tgz 0ms (cache hit)
+46 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+47 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz 0ms (cache hit)
+48 http cache node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 0ms (cache hit)
+49 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz 0ms (cache hit)
+50 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 0ms (cache hit)
+51 http cache googleapis-common@https://registry.npmjs.org/googleapis-common/-/googleapis-common-8.0.1.tgz 0ms (cache hit)
+52 http cache googleapis@https://registry.npmjs.org/googleapis/-/googleapis-169.0.0.tgz 0ms (cache hit)
+53 http cache google-auth-library@https://registry.npmjs.org/google-auth-library/-/google-auth-library-10.5.0.tgz 0ms (cache hit)
+54 http cache glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 0ms (cache hit)
+55 http cache gaxios@https://registry.npmjs.org/gaxios/-/gaxios-7.1.3.tgz 0ms (cache hit)
+56 http cache discord.js@https://registry.npmjs.org/discord.js/-/discord.js-14.25.1.tgz 0ms (cache hit)
+57 http cache discord-api-types@https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.38.37.tgz 1ms (cache hit)
+58 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 7904ms
+59 silly audit report {
+59 silly audit report   undici: [
+59 silly audit report     {
+59 silly audit report       id: 1112153,
+59 silly audit report       url: 'https://github.com/advisories/GHSA-g9mf-h72j-4rw9',
+59 silly audit report       title: 'Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion',
+59 silly audit report       severity: 'low',
+59 silly audit report       vulnerable_versions: '<6.23.0',
+59 silly audit report       cwe: [Array],
+59 silly audit report       cvss: [Object]
+59 silly audit report     }
+59 silly audit report   ]
+59 silly audit report }
+60 silly packumentCache corgi:https://registry.npmjs.org/undici cache-miss
+61 http cache https://registry.npmjs.org/undici 456ms (cache hit)
+62 silly packumentCache corgi:https://registry.npmjs.org/undici set size:401965 disposed:false
+63 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest cache-miss
+64 silly packumentCache corgi:https://registry.npmjs.org/discord.js cache-miss
+65 http cache https://registry.npmjs.org/discord.js 659ms (cache hit)
+66 silly packumentCache corgi:https://registry.npmjs.org/discord.js set size:3981405 disposed:false
+67 http cache https://registry.npmjs.org/@discordjs%2frest 1701ms (cache hit)
+68 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest set size:2853220 disposed:false
+69 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws cache-miss
+70 http cache https://registry.npmjs.org/@discordjs%2fws 628ms (cache hit)
+71 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws set size:2667962 disposed:false
+72 warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+73 silly CHANGE node_modules/which
+74 silly CHANGE node_modules/is-inside-container
+75 silly CHANGE node_modules/is-docker
+76 silly CHANGE node_modules/@vladfrangu/async_event_emitter
+77 silly CHANGE node_modules/@types/node
+78 silly CHANGE node_modules/@sapphire/shapeshift
+79 silly CHANGE node_modules/web-streams-polyfill
+80 silly CHANGE node_modules/undici
+81 silly CHANGE node_modules/rimraf
+82 silly CHANGE node_modules/object-inspect
+83 silly CHANGE node_modules/node-fetch
+84 silly CHANGE node_modules/node-domexception
+85 silly CHANGE node_modules/minimatch
+86 silly CHANGE node_modules/lodash
+87 silly CHANGE node_modules/googleapis-common
+88 silly CHANGE node_modules/googleapis
+89 silly CHANGE node_modules/google-auth-library
+90 silly CHANGE node_modules/glob
+91 silly CHANGE node_modules/gaxios
+92 silly CHANGE node_modules/discord.js
+93 silly CHANGE node_modules/discord-api-types
+94 verbose cwd /home/container
+95 verbose os Linux 5.15.0-112-generic
+96 verbose node v24.12.0
+97 verbose npm  v11.7.0
+98 verbose exit 0
+99 info ok

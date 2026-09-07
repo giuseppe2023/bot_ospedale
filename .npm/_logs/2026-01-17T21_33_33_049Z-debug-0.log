@@ -1,0 +1,161 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.7.0
+2 info using node@v24.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2026-01-17T21_33_33_049Z-
+9 verbose logfile /home/container/.npm/_logs/2026-01-17T21_33_33_049Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:359137280 maxSize:89784320 maxEntrySize:44892160
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@discordjs/builders': [ '1.13.1' ],
+15 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+15 silly audit   '@discordjs/formatters': [ '0.6.2' ],
+15 silly audit   '@discordjs/rest': [ '2.6.0' ],
+15 silly audit   '@discordjs/util': [ '1.2.0' ],
+15 silly audit   '@discordjs/ws': [ '1.2.3' ],
+15 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+15 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+15 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+15 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+15 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+15 silly audit   '@types/node': [ '25.0.3' ],
+15 silly audit   '@types/ws': [ '8.18.1' ],
+15 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.7' ],
+15 silly audit   'agent-base': [ '7.1.4' ],
+15 silly audit   'ansi-regex': [ '6.2.2', '5.0.1' ],
+15 silly audit   'ansi-styles': [ '6.2.3', '4.3.0' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   'base64-js': [ '1.5.1' ],
+15 silly audit   'bignumber.js': [ '9.3.1' ],
+15 silly audit   'brace-expansion': [ '2.0.2' ],
+15 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+15 silly audit   'bundle-name': [ '4.1.0' ],
+15 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+15 silly audit   'call-bound': [ '1.0.4' ],
+15 silly audit   'color-convert': [ '2.0.1' ],
+15 silly audit   'color-name': [ '1.1.4' ],
+15 silly audit   'cross-spawn': [ '7.0.6' ],
+15 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+15 silly audit   debug: [ '4.4.3' ],
+15 silly audit   'default-browser': [ '5.4.0' ],
+15 silly audit   'default-browser-id': [ '5.0.1' ],
+15 silly audit   'define-lazy-prop': [ '3.0.0' ],
+15 silly audit   'discord-api-types': [ '0.38.37' ],
+15 silly audit   'discord.js': [ '14.25.1' ],
+15 silly audit   dotenv: [ '17.2.3' ],
+15 silly audit   'dunder-proto': [ '1.0.1' ],
+15 silly audit   eastasianwidth: [ '0.2.0' ],
+15 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+15 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+15 silly audit   'es-define-property': [ '1.0.1' ],
+15 silly audit   'es-errors': [ '1.3.0' ],
+15 silly audit   'es-object-atoms': [ '1.1.1' ],
+15 silly audit   extend: [ '3.0.2' ],
+15 silly audit   'fast-deep-equal': [ '3.1.3' ],
+15 silly audit   'fetch-blob': [ '3.2.0' ],
+15 silly audit   'foreground-child': [ '3.3.1' ],
+15 silly audit   'formdata-polyfill': [ '4.0.10' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   gaxios: [ '7.1.3' ],
+15 silly audit   'gcp-metadata': [ '8.1.2' ],
+15 silly audit   'get-intrinsic': [ '1.3.0' ],
+15 silly audit   'get-proto': [ '1.0.1' ],
+15 silly audit   glob: [ '10.5.0' ],
+15 silly audit   'google-auth-library': [ '10.5.0' ],
+15 silly audit   'google-logging-utils': [ '1.1.3' ],
+15 silly audit   googleapis: [ '169.0.0' ],
+15 silly audit   'googleapis-common': [ '8.0.1' ],
+15 silly audit   gopd: [ '1.2.0' ],
+15 silly audit   gtoken: [ '8.0.0' ],
+15 silly audit   'has-symbols': [ '1.1.0' ],
+15 silly audit   hasown: [ '2.0.2' ],
+15 silly audit   'https-proxy-agent': [ '7.0.6' ],
+15 silly audit   'is-docker': [ '3.0.0' ],
+15 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+15 silly audit   'is-in-ssh': [ '1.0.0' ],
+15 silly audit   'is-inside-container': [ '1.0.0' ],
+15 silly audit   'is-wsl': [ '3.1.0' ],
+15 silly audit   isexe: [ '2.0.0' ],
+15 silly audit   jackspeak: [ '3.4.3' ],
+15 silly audit   'json-bigint': [ '1.0.0' ],
+15 silly audit   jwa: [ '2.0.1' ],
+15 silly audit   jws: [ '4.0.1' ],
+15 silly audit   lodash: [ '4.17.21' ],
+15 silly audit   'lodash.snakecase': [ '4.1.1' ],
+15 silly audit   'lru-cache': [ '10.4.3' ],
+15 silly audit   'magic-bytes.js': [ '1.12.1' ],
+15 silly audit   'math-intrinsics': [ '1.1.0' ],
+15 silly audit   minimatch: [ '9.0.5' ],
+15 silly audit   minipass: [ '7.1.2' ],
+15 silly audit   ms: [ '2.1.3' ],
+15 silly audit   'node-domexception': [ '1.0.0' ],
+15 silly audit   'node-fetch': [ '3.3.2' ],
+15 silly audit   'object-inspect': [ '1.13.4' ],
+15 silly audit   open: [ '11.0.0' ],
+15 silly audit   'package-json-from-dist': [ '1.0.1' ],
+15 silly audit   'path-key': [ '3.1.1' ],
+15 silly audit   'path-scurry': [ '1.11.1' ],
+15 silly audit   'powershell-utils': [ '0.1.0' ],
+15 silly audit   qs: [ '6.14.1' ],
+15 silly audit   rimraf: [ '5.0.10' ],
+15 silly audit   'run-applescript': [ '7.1.0' ],
+15 silly audit   'safe-buffer': [ '5.2.1' ],
+15 silly audit   'shebang-command': [ '2.0.0' ],
+15 silly audit   'shebang-regex': [ '3.0.0' ],
+15 silly audit   'side-channel': [ '1.1.0' ],
+15 silly audit   'side-channel-list': [ '1.0.0' ],
+15 silly audit   'side-channel-map': [ '1.0.1' ],
+15 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+15 silly audit   'signal-exit': [ '4.1.0' ],
+15 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+15 silly audit   'strip-ansi': [ '6.0.1', '7.1.2' ],
+15 silly audit   'ts-mixer': [ '6.0.4' ],
+15 silly audit   tslib: [ '2.8.1' ],
+15 silly audit   undici: [ '6.21.3' ],
+15 silly audit   'undici-types': [ '7.16.0' ],
+15 silly audit   'url-template': [ '2.0.8' ],
+15 silly audit   'web-streams-polyfill': [ '3.3.3' ],
+15 silly audit   which: [ '2.0.2' ],
+15 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+15 silly audit   ws: [ '8.18.3' ],
+15 silly audit   'wsl-utils': [ '0.3.1' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 958ms
+17 silly audit report {
+17 silly audit report   undici: [
+17 silly audit report     {
+17 silly audit report       id: 1112153,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-g9mf-h72j-4rw9',
+17 silly audit report       title: 'Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '<6.23.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/undici cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/undici 153ms (cache revalidated)
+20 silly packumentCache corgi:https://registry.npmjs.org/undici set size:401965 disposed:false
+21 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest cache-miss
+22 silly packumentCache corgi:https://registry.npmjs.org/discord.js cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 165ms (cache revalidated)
+24 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest set size:2853220 disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/discord.js 708ms (cache revalidated)
+26 silly packumentCache corgi:https://registry.npmjs.org/discord.js set size:3981405 disposed:false
+27 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 592ms (cache revalidated)
+29 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws set size:2667962 disposed:false
+30 verbose cwd /home/container
+31 verbose os Linux 5.15.0-112-generic
+32 verbose node v24.12.0
+33 verbose npm  v11.7.0
+34 verbose exit 0
+35 info ok

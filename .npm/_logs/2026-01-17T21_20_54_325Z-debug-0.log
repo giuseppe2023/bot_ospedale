@@ -1,0 +1,281 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.7.0
+2 info using node@v24.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2026-01-17T21_20_54_325Z-
+9 verbose logfile /home/container/.npm/_logs/2026-01-17T21_20_54_325Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@discordjs/builders': [ '1.13.1' ],
+15 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+15 silly audit   '@discordjs/formatters': [ '0.6.2' ],
+15 silly audit   '@discordjs/rest': [ '2.6.0' ],
+15 silly audit   '@discordjs/util': [ '1.2.0' ],
+15 silly audit   '@discordjs/ws': [ '1.2.3' ],
+15 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+15 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+15 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+15 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+15 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+15 silly audit   '@types/node': [ '25.0.3' ],
+15 silly audit   '@types/ws': [ '8.18.1' ],
+15 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.7' ],
+15 silly audit   'agent-base': [ '7.1.4' ],
+15 silly audit   'ansi-regex': [ '6.2.2', '5.0.1' ],
+15 silly audit   'ansi-styles': [ '6.2.3', '4.3.0' ],
+15 silly audit   'balanced-match': [ '1.0.2' ],
+15 silly audit   'base64-js': [ '1.5.1' ],
+15 silly audit   'bignumber.js': [ '9.3.1' ],
+15 silly audit   'brace-expansion': [ '2.0.2' ],
+15 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+15 silly audit   'bundle-name': [ '4.1.0' ],
+15 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+15 silly audit   'call-bound': [ '1.0.4' ],
+15 silly audit   'color-convert': [ '2.0.1' ],
+15 silly audit   'color-name': [ '1.1.4' ],
+15 silly audit   'cross-spawn': [ '7.0.6' ],
+15 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+15 silly audit   debug: [ '4.4.3' ],
+15 silly audit   'default-browser': [ '5.4.0' ],
+15 silly audit   'default-browser-id': [ '5.0.1' ],
+15 silly audit   'define-lazy-prop': [ '3.0.0' ],
+15 silly audit   'discord-api-types': [ '0.38.37' ],
+15 silly audit   'discord.js': [ '14.25.1' ],
+15 silly audit   dotenv: [ '17.2.3' ],
+15 silly audit   'dunder-proto': [ '1.0.1' ],
+15 silly audit   eastasianwidth: [ '0.2.0' ],
+15 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+15 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+15 silly audit   'es-define-property': [ '1.0.1' ],
+15 silly audit   'es-errors': [ '1.3.0' ],
+15 silly audit   'es-object-atoms': [ '1.1.1' ],
+15 silly audit   extend: [ '3.0.2' ],
+15 silly audit   'fast-deep-equal': [ '3.1.3' ],
+15 silly audit   'fetch-blob': [ '3.2.0' ],
+15 silly audit   'foreground-child': [ '3.3.1' ],
+15 silly audit   'formdata-polyfill': [ '4.0.10' ],
+15 silly audit   'function-bind': [ '1.1.2' ],
+15 silly audit   gaxios: [ '7.1.3' ],
+15 silly audit   'gcp-metadata': [ '8.1.2' ],
+15 silly audit   'get-intrinsic': [ '1.3.0' ],
+15 silly audit   'get-proto': [ '1.0.1' ],
+15 silly audit   glob: [ '10.5.0' ],
+15 silly audit   'google-auth-library': [ '10.5.0' ],
+15 silly audit   'google-logging-utils': [ '1.1.3' ],
+15 silly audit   googleapis: [ '169.0.0' ],
+15 silly audit   'googleapis-common': [ '8.0.1' ],
+15 silly audit   gopd: [ '1.2.0' ],
+15 silly audit   gtoken: [ '8.0.0' ],
+15 silly audit   'has-symbols': [ '1.1.0' ],
+15 silly audit   hasown: [ '2.0.2' ],
+15 silly audit   'https-proxy-agent': [ '7.0.6' ],
+15 silly audit   'is-docker': [ '3.0.0' ],
+15 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+15 silly audit   'is-in-ssh': [ '1.0.0' ],
+15 silly audit   'is-inside-container': [ '1.0.0' ],
+15 silly audit   'is-wsl': [ '3.1.0' ],
+15 silly audit   isexe: [ '2.0.0' ],
+15 silly audit   jackspeak: [ '3.4.3' ],
+15 silly audit   'json-bigint': [ '1.0.0' ],
+15 silly audit   jwa: [ '2.0.1' ],
+15 silly audit   jws: [ '4.0.1' ],
+15 silly audit   lodash: [ '4.17.21' ],
+15 silly audit   'lodash.snakecase': [ '4.1.1' ],
+15 silly audit   'lru-cache': [ '10.4.3' ],
+15 silly audit   'magic-bytes.js': [ '1.12.1' ],
+15 silly audit   'math-intrinsics': [ '1.1.0' ],
+15 silly audit   minimatch: [ '9.0.5' ],
+15 silly audit   minipass: [ '7.1.2' ],
+15 silly audit   ms: [ '2.1.3' ],
+15 silly audit   'node-domexception': [ '1.0.0' ],
+15 silly audit   'node-fetch': [ '3.3.2' ],
+15 silly audit   'object-inspect': [ '1.13.4' ],
+15 silly audit   open: [ '11.0.0' ],
+15 silly audit   'package-json-from-dist': [ '1.0.1' ],
+15 silly audit   'path-key': [ '3.1.1' ],
+15 silly audit   'path-scurry': [ '1.11.1' ],
+15 silly audit   'powershell-utils': [ '0.1.0' ],
+15 silly audit   qs: [ '6.14.1' ],
+15 silly audit   rimraf: [ '5.0.10' ],
+15 silly audit   'run-applescript': [ '7.1.0' ],
+15 silly audit   'safe-buffer': [ '5.2.1' ],
+15 silly audit   'shebang-command': [ '2.0.0' ],
+15 silly audit   'shebang-regex': [ '3.0.0' ],
+15 silly audit   'side-channel': [ '1.1.0' ],
+15 silly audit   'side-channel-list': [ '1.0.0' ],
+15 silly audit   'side-channel-map': [ '1.0.1' ],
+15 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+15 silly audit   'signal-exit': [ '4.1.0' ],
+15 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+15 silly audit   'strip-ansi': [ '6.0.1', '7.1.2' ],
+15 silly audit   'ts-mixer': [ '6.0.4' ],
+15 silly audit   tslib: [ '2.8.1' ],
+15 silly audit   undici: [ '6.21.3' ],
+15 silly audit   'undici-types': [ '7.16.0' ],
+15 silly audit   'url-template': [ '2.0.8' ],
+15 silly audit   'web-streams-polyfill': [ '3.3.3' ],
+15 silly audit   which: [ '2.0.2' ],
+15 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+15 silly audit   ws: [ '8.18.3' ],
+15 silly audit   'wsl-utils': [ '0.3.1' ]
+15 silly audit }
+16 http cache wsl-utils@https://registry.npmjs.org/wsl-utils/-/wsl-utils-0.3.1.tgz 1ms (cache hit)
+17 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.3.tgz 0ms (cache hit)
+18 http cache wrap-ansi-cjs@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 0ms (cache hit)
+19 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-8.1.0.tgz 0ms (cache hit)
+20 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+21 http cache web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 0ms (cache hit)
+22 http cache url-template@https://registry.npmjs.org/url-template/-/url-template-2.0.8.tgz 0ms (cache hit)
+23 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz 0ms (cache hit)
+24 http cache undici@https://registry.npmjs.org/undici/-/undici-6.21.3.tgz 0ms (cache hit)
+25 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+26 http cache ts-mixer@https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.4.tgz 0ms (cache hit)
+27 http cache strip-ansi-cjs@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+28 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.1.2.tgz 0ms (cache hit)
+29 http cache string-width-cjs@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+30 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-5.1.2.tgz 0ms (cache hit)
+31 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz 0ms (cache hit)
+32 http cache side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+33 http cache side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+34 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 0ms (cache hit)
+35 http cache side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+36 http cache shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+37 http cache shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 1ms (cache hit)
+38 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+39 http cache run-applescript@https://registry.npmjs.org/run-applescript/-/run-applescript-7.1.0.tgz 0ms (cache hit)
+40 http cache rimraf@https://registry.npmjs.org/rimraf/-/rimraf-5.0.10.tgz 0ms (cache hit)
+41 http cache qs@https://registry.npmjs.org/qs/-/qs-6.14.1.tgz 0ms (cache hit)
+42 http cache powershell-utils@https://registry.npmjs.org/powershell-utils/-/powershell-utils-0.1.0.tgz 0ms (cache hit)
+43 http cache open@https://registry.npmjs.org/open/-/open-11.0.0.tgz 0ms (cache hit)
+44 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+45 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz 0ms (cache hit)
+46 http cache node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 0ms (cache hit)
+47 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+48 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-7.1.2.tgz 0ms (cache hit)
+49 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz 0ms (cache hit)
+50 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+51 http cache magic-bytes.js@https://registry.npmjs.org/magic-bytes.js/-/magic-bytes.js-1.12.1.tgz 0ms (cache hit)
+52 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.3.tgz 0ms (cache hit)
+53 http cache lodash.snakecase@https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz 0ms (cache hit)
+54 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 0ms (cache hit)
+55 http cache jws@https://registry.npmjs.org/jws/-/jws-4.0.1.tgz 0ms (cache hit)
+56 http cache jwa@https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz 0ms (cache hit)
+57 http cache json-bigint@https://registry.npmjs.org/json-bigint/-/json-bigint-1.0.0.tgz 0ms (cache hit)
+58 http cache jackspeak@https://registry.npmjs.org/jackspeak/-/jackspeak-3.4.3.tgz 0ms (cache hit)
+59 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+60 http cache is-wsl@https://registry.npmjs.org/is-wsl/-/is-wsl-3.1.0.tgz 0ms (cache hit)
+61 http cache is-inside-container@https://registry.npmjs.org/is-inside-container/-/is-inside-container-1.0.0.tgz 0ms (cache hit)
+62 http cache is-in-ssh@https://registry.npmjs.org/is-in-ssh/-/is-in-ssh-1.0.0.tgz 0ms (cache hit)
+63 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+64 http cache is-docker@https://registry.npmjs.org/is-docker/-/is-docker-3.0.0.tgz 0ms (cache hit)
+65 http cache https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz 0ms (cache hit)
+66 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+67 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+68 http cache gtoken@https://registry.npmjs.org/gtoken/-/gtoken-8.0.0.tgz 1ms (cache hit)
+69 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+70 http cache googleapis-common@https://registry.npmjs.org/googleapis-common/-/googleapis-common-8.0.1.tgz 0ms (cache hit)
+71 http cache googleapis@https://registry.npmjs.org/googleapis/-/googleapis-169.0.0.tgz 0ms (cache hit)
+72 http cache google-logging-utils@https://registry.npmjs.org/google-logging-utils/-/google-logging-utils-1.1.3.tgz 0ms (cache hit)
+73 http cache google-auth-library@https://registry.npmjs.org/google-auth-library/-/google-auth-library-10.5.0.tgz 0ms (cache hit)
+74 http cache glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 0ms (cache hit)
+75 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+76 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 1ms (cache hit)
+77 http cache gcp-metadata@https://registry.npmjs.org/gcp-metadata/-/gcp-metadata-8.1.2.tgz 0ms (cache hit)
+78 http cache gaxios@https://registry.npmjs.org/gaxios/-/gaxios-7.1.3.tgz 0ms (cache hit)
+79 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+80 http cache formdata-polyfill@https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 0ms (cache hit)
+81 http cache foreground-child@https://registry.npmjs.org/foreground-child/-/foreground-child-3.3.1.tgz 0ms (cache hit)
+82 http cache fetch-blob@https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz 0ms (cache hit)
+83 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+84 http cache extend@https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 0ms (cache hit)
+85 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+86 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+87 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+88 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz 0ms (cache hit)
+89 http cache ecdsa-sig-formatter@https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz 0ms (cache hit)
+90 http cache eastasianwidth@https://registry.npmjs.org/eastasianwidth/-/eastasianwidth-0.2.0.tgz 0ms (cache hit)
+91 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+92 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.2.3.tgz 0ms (cache hit)
+93 http cache discord.js@https://registry.npmjs.org/discord.js/-/discord.js-14.25.1.tgz 0ms (cache hit)
+94 http cache discord-api-types@https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.38.37.tgz 0ms (cache hit)
+95 http cache define-lazy-prop@https://registry.npmjs.org/define-lazy-prop/-/define-lazy-prop-3.0.0.tgz 0ms (cache hit)
+96 http cache default-browser-id@https://registry.npmjs.org/default-browser-id/-/default-browser-id-5.0.1.tgz 0ms (cache hit)
+97 http cache default-browser@https://registry.npmjs.org/default-browser/-/default-browser-5.4.0.tgz 0ms (cache hit)
+98 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+99 http cache data-uri-to-buffer@https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 0ms (cache hit)
+100 http cache cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+101 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+102 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+103 http cache call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+104 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+105 http cache bundle-name@https://registry.npmjs.org/bundle-name/-/bundle-name-4.1.0.tgz 0ms (cache hit)
+106 http cache buffer-equal-constant-time@https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz 0ms (cache hit)
+107 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.2.tgz 0ms (cache hit)
+108 http cache bignumber.js@https://registry.npmjs.org/bignumber.js/-/bignumber.js-9.3.1.tgz 0ms (cache hit)
+109 http cache base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 0ms (cache hit)
+110 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+111 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz 0ms (cache hit)
+112 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz 0ms (cache hit)
+113 http cache agent-base@https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz 0ms (cache hit)
+114 http cache @vladfrangu/async_event_emitter@https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.4.7.tgz 0ms (cache hit)
+115 http cache @types/ws@https://registry.npmjs.org/@types/ws/-/ws-8.18.1.tgz 0ms (cache hit)
+116 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-25.0.3.tgz 0ms (cache hit)
+117 http cache @sapphire/snowflake@https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.3.tgz 1ms (cache hit)
+118 http cache @sapphire/shapeshift@https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-4.0.0.tgz 0ms (cache hit)
+119 http cache @sapphire/async-queue@https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.5.tgz 0ms (cache hit)
+120 http cache @pkgjs/parseargs@https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz 0ms (cache hit)
+121 http cache @isaacs/cliui@https://registry.npmjs.org/@isaacs/cliui/-/cliui-8.0.2.tgz 0ms (cache hit)
+122 http cache @discordjs/ws@https://registry.npmjs.org/@discordjs/ws/-/ws-1.2.3.tgz 0ms (cache hit)
+123 http cache @discordjs/util@https://registry.npmjs.org/@discordjs/util/-/util-1.2.0.tgz 0ms (cache hit)
+124 http cache @discordjs/rest@https://registry.npmjs.org/@discordjs/rest/-/rest-2.6.0.tgz 0ms (cache hit)
+125 http cache @discordjs/formatters@https://registry.npmjs.org/@discordjs/formatters/-/formatters-0.6.2.tgz 0ms (cache hit)
+126 http cache @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-1.5.3.tgz 0ms (cache hit)
+127 http cache @discordjs/builders@https://registry.npmjs.org/@discordjs/builders/-/builders-1.13.1.tgz 0ms (cache hit)
+128 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+129 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+130 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+131 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+132 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+133 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+134 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+135 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+136 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+137 http cache @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz 0ms (cache hit)
+138 http cache @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz 0ms (cache hit)
+139 http cache path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+140 http cache package-json-from-dist@https://registry.npmjs.org/package-json-from-dist/-/package-json-from-dist-1.0.1.tgz 0ms (cache hit)
+141 http cache path-scurry@https://registry.npmjs.org/path-scurry/-/path-scurry-1.11.1.tgz 0ms (cache hit)
+142 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 11579ms
+143 silly audit report {
+143 silly audit report   undici: [
+143 silly audit report     {
+143 silly audit report       id: 1112153,
+143 silly audit report       url: 'https://github.com/advisories/GHSA-g9mf-h72j-4rw9',
+143 silly audit report       title: 'Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion',
+143 silly audit report       severity: 'low',
+143 silly audit report       vulnerable_versions: '<6.23.0',
+143 silly audit report       cwe: [Array],
+143 silly audit report       cvss: [Object]
+143 silly audit report     }
+143 silly audit report   ]
+143 silly audit report }
+144 silly packumentCache corgi:https://registry.npmjs.org/undici cache-miss
+145 http cache https://registry.npmjs.org/undici 2010ms (cache hit)
+146 silly packumentCache corgi:https://registry.npmjs.org/undici set size:401965 disposed:false
+147 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest cache-miss
+148 silly packumentCache corgi:https://registry.npmjs.org/discord.js cache-miss
+149 http cache https://registry.npmjs.org/@discordjs%2frest 1066ms (cache hit)
+150 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest set size:2853220 disposed:false
+151 http cache https://registry.npmjs.org/discord.js 1954ms (cache hit)
+152 silly packumentCache corgi:https://registry.npmjs.org/discord.js set size:3981405 disposed:false
+153 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws cache-miss
+154 http cache https://registry.npmjs.org/@discordjs%2fws 803ms (cache hit)
+155 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws set size:2667962 disposed:false
